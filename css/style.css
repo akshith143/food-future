@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "montserrat";
+    src: url('../assests/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+body{
+    overflow-x: hidden;
+    font-family: "montserrat";
+}
+
+.main-header{
+    background-image: url('../assests/images/bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#header{
+    transition: 0.2s;
+}
+.overlay-data{
+    padding-top: 20%;
+}
+.overlay-text{
+    text-align: center;
+}
+.banner-text{
+    color: #fff;
+    font-size: 25px;
+}
+.stats{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.streams{
+    padding-top: 5%;
+    background-color: #f7f8f9;
+    padding-bottom: 5%;
+}
+.card-stream{
+    height: 350px;
+}
+.stream-head{
+    margin-top: 10%;
+}
+.stream-data{
+    margin: 15%;
+}
+
+.partners{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.about-header{
+    background-image: url('../assests/images/about.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    height: 400px;
+}
+.about-text{
+    padding-top: 17%;
+    text-align: center;
+}
+.about-heading{
+    color: #f9c516;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.about-data{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.stories{
+    margin-bottom: 5%;
+}
+.terms-heading{
+    color: #f9c516;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.terms-content{
+    margin-top:15%;
+}
+.terms-data{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    height: 300px;
+}
+.subscribe{
+    background-color: #f9c516;
+    color: #000;
+}
+.contact{
+    text-align: right;
+    color: #fff;
+}
+.social-ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.social-li{
+    margin-left: 5px;
+}
+.social-icons{
+    width: 40px;
+    height: 40px;
+}
+.card{
+    border-radius: 10px;
+}
+/* .card:hover{
+    box-shadow: 8px 2px 8px 2px #888888;
+    transition: 00.2s;
+} */
+.action{
+    margin-bottom: 5%;
+}
+.card-body{
+    text-align: center;
+}
+.leadership-card{
+    text-align: left !important;
+}
+.leadership-head{
+    text-align: center !important;
+}
+
+.auth-little{
+    background-image: url('../assests/images/auth.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.auth-overlay{
+    width: 100%;
+    height: 500px;
+    background: rgba(20, 45, 25, 0.7);
+}
+.text-overlay{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.para-overlay{
+    color: #fff;
+}
