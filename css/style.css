@@ -2,12 +2,17 @@
     font-family: "montserrat";
     src: url('../assests/fonts/Montserrat/Montserrat-Regular.ttf');
 }
+@font-face {
+    font-family: "montserrat-bold";
+    src: url("../assests/fonts/Montserrat/Montserrat-Bold.ttf");
+}
 body{
     overflow-x: hidden;
     font-family: "montserrat";
 }
 
 .main-header{
+    margin-top: 10%;
     background-image: url('../assests/images/bg.jpg');
     background-position: 50% 50%;
     background-size: cover;
@@ -15,7 +20,13 @@ body{
     width: 100%;
     background-repeat: no-repeat;
 }
-
+.nav-link{
+    font-family: "montserrat-bold" !important;
+    font-size: 14px;
+}
+.nav-link:hover{
+    color: #f9c516 !important;
+}
 #header{
     transition: 0.2s;
 }
@@ -23,11 +34,13 @@ body{
     padding-top: 20%;
 }
 .overlay-text{
-    text-align: center;
+    text-align: left;
 }
 .banner-text{
     color: #fff;
     font-size: 25px;
+    margin-top: 5%;
+    letter-spacing: 2px;
 }
 .stats{
     margin-top: 5%;
@@ -98,6 +111,26 @@ body{
 footer{
     height: 300px;
 }
+
+.people-planet{
+    padding-top: 5%;
+    background-color: #f7f8f9;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.people-planet-card{
+    width: 120px !important; 
+    height: 120px !important; 
+    border-radius: 50% !important; 
+    background-color: #f9c516 !important; 
+    margin-left: 15% !important;
+}
+.people-planet-text{
+    text-align:center;
+    margin-top: 5%;
+    font-family: "montserrat-bold";
+    color: #f9c516;
+}
 .subscribe{
     background-color: #f9c516;
     color: #000;
@@ -137,25 +170,19 @@ footer{
     text-align: center !important;
 }
 
-.auth-little{
-    background-image: url('../assests/images/auth.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-}
-.auth-overlay{
-    width: 100%;
-    height: 500px;
-    background: rgba(20, 45, 25, 0.7);
-}
-.text-overlay{
-    color: #fff;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-.para-overlay{
-    color: #fff;
-}
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f9c516;
+    border-radius: 10px;
+  }
